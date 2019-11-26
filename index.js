@@ -1,2 +1,3 @@
 'use strict';
-module.exports = require("./src/mediaQueryList");
+const mediaQueryList = require("./src/mediaQueryList");
+module.exports = mediaQueryList;
