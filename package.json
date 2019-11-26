@@ -1,6 +1,6 @@
 {
   "name": "@mystify/mediaquerylist",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A simple class for media query lists that allows me to get around the addListener not supported on some browsers.",
   "main": "index.js",
   "scripts": {
