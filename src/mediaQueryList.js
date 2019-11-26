@@ -28,4 +28,4 @@ class MediaQueryList {
   };
 }
 
-module.exports = MediaQueryList;
+module.exports.MediaQueryList = MediaQueryList;
