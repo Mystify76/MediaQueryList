@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require("./src/balancetext");
+module.exports = require("./src/mediaQueryList");
