@@ -1,4 +1,4 @@
-export class MediaQueryList {
+class MediaQueryList {
   constructor(matchMedia) {
     this._mql = window.matchMedia(matchMedia);
   };
@@ -27,3 +27,5 @@ export class MediaQueryList {
     }
   };
 }
+
+module.exports = MediaQueryList;
