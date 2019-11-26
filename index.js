@@ -11,7 +11,7 @@ class MediaQueryList {
     return this._mql.media;
   }
 
-  addListener = function(callback) {
+  addListener(callback) {
     try {
       this._mql.addEventListener('change', callback);
     } catch (err) {
@@ -19,7 +19,7 @@ class MediaQueryList {
     }
   };
 
-  removeListener = function(callback) {
+  removeListener(callback) {
     try {
       this._mql.removeEventListener('change', this.mediaQueryChanged);
     } catch (err) {
