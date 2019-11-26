@@ -1,3 +1,2 @@
 'use strict';
-const mediaQueryList = require("./src/mediaQueryList");
-module.exports = mediaQueryList;
+module.exports = require("./dist/mediaQueryList");
