@@ -1,12 +1,32 @@
 {
   "name": "@mystify/mediaquerylist",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A simple class for media query lists that allows me to get around the addListener not supported on some browsers.",
   "main": "index.js",
   "author": "David Gallant",
   "license": "MIT",
+  "scripts": {
+    "deploy": "node deploy.js"
+  },
   "devDependencies": {
+    "@mystify/buildmanagement": "^1.0.9",
+    "lodash": "^4.17.15",
+    "prompt-promise": "^1.0.3",
+    "simple-git": "^2.6.0"
   },
   "dependencies": {},
-  "homepage": "https://github.com/Mystify76/MediaQueryList"
+  "homepage": "https://github.com/Mystify76/MediaQueryList",
+  "build": {
+    "major": "1",
+    "minor": "0",
+    "revision": "13",
+    "build": "0001",
+    "year": "2020",
+    "month": "06",
+    "day": "15",
+    "hour": "10",
+    "minute": "39",
+    "second": "18",
+    "date": "1592228358235"
+  }
 }
